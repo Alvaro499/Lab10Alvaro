@@ -143,4 +143,17 @@ public class Lab10Alvaro {
         return resultList;
 
     }
+
+    long cuttingPapper(int n, int m) {
+    
+    // N Filas
+    // M Columnas
+    
+    /* 
+        Siempre a las columnas les restamos la cantidad de filas menos 1, 
+        siendo par e impar
+    */
+    //La cantidad de veces que se divide las columnas (-1)
+    return (long)n*m-1;    
+}
 }
